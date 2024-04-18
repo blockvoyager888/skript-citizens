@@ -1,5 +1,6 @@
 name: skript-citizens
-author: nylhus, Equipable
+author: nylhus
+contributor: Equipable
 description: Use Citizens api with Skript
 version: @version@
 api-version: '1.18'
