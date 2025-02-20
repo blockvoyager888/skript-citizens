@@ -9,7 +9,7 @@ plugins {
 
 tasks {
     runServer {
-        minecraftVersion("1.18.2")
+        minecraftVersion("1.21.4")
     }
 }
 
@@ -53,10 +53,10 @@ dependencies {
     implementation (group: 'org.eclipse.jdt', name: 'org.eclipse.jdt.annotation', version: '2.2.700')
 
     //Spigot/Bukkit
-    implementation (group: 'org.spigotmc', name: 'spigot-api', version: '1.20.4-R0.1-SNAPSHOT')
+    implementation (group: 'org.spigotmc', name: 'spigot-api', version: '1.21.4-R0.1-SNAPSHOT')
 
     //Skript
-    implementation (group: 'com.github.SkriptLang', name: 'Skript', version: '2.7.0') {
+    implementation (group: 'com.github.SkriptLang', name: 'Skript', version: '2.10.0') {
         transitive = false
     }
 
@@ -64,7 +64,7 @@ dependencies {
     shadow (group: 'org.bstats', name: 'bstats-bukkit', version: '3.0.2')
 
     //Citizens
-    compileOnly('net.citizensnpcs:citizens-main:2.0.30-SNAPSHOT') {
+    compileOnly('net.citizensnpcs:citizens-main:2.0.37-SNAPSHOT') {
         exclude group: '*', module: '*'
     }
 
